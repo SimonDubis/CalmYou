@@ -16,6 +16,7 @@ public class ListActivity extends AppCompatActivity {
     }
 
     public void link1(View view) {
+
         Intent intent = new Intent(this, HoroscopeActivity.class);
         intent.putExtra("name", "Aries");
         intent.putExtra("url", "https://aztro.sameerkumar.website/?sign=aries&day=today");

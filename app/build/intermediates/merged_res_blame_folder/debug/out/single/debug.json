@@ -4,10 +4,6 @@
         "source": "D:\\Android_Lab3\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "D:\\Android_Lab3\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_img_8.png.flat",
-        "source": "D:\\Android_Lab3\\app\\src\\main\\res\\drawable-v24\\img_8.png"
-    },
-    {
         "merged": "D:\\Android_Lab3\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\Android_Lab3\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -38,6 +34,10 @@
     {
         "merged": "D:\\Android_Lab3\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_recomendation.xml.flat",
         "source": "D:\\Android_Lab3\\app\\src\\main\\res\\layout\\activity_recomendation.xml"
+    },
+    {
+        "merged": "D:\\Android_Lab3\\app\\build\\intermediates\\merged_res\\debug\\raw_muz.mp3.flat",
+        "source": "D:\\Android_Lab3\\app\\src\\main\\res\\raw\\muz.mp3"
     },
     {
         "merged": "D:\\Android_Lab3\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",

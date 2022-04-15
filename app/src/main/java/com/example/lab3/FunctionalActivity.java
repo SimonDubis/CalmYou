@@ -16,6 +16,7 @@ import java.io.IOException;
 public class FunctionalActivity extends AppCompatActivity {
 
     FirebaseUser currentUser;
+    MediaPlayer player;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,9 @@ public class FunctionalActivity extends AppCompatActivity {
         Bundle arguments = getIntent().getExtras();
         currentUser = (FirebaseUser) arguments.get("current_user");
         setContentView(R.layout.activity_functional);
+        player = MediaPlayer.create(this, R.raw.muz);
+        player.setLooping(true);
+        player.start();
     }
 
     public void toInfo(View view) {
@@ -40,6 +44,7 @@ public class FunctionalActivity extends AppCompatActivity {
         FirebaseAuth.getInstance().signOut();
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+        player.stop();
     }
 
     public void toDev(View view) {

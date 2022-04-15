@@ -2519,7 +2519,6 @@ drawable img_4
 drawable img_5
 drawable img_6
 drawable img_7
-drawable img_8
 drawable img_9
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
@@ -3303,6 +3302,7 @@ menu example_menu2
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw muz
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
